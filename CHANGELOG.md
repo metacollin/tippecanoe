@@ -1,3 +1,32 @@
+## 1.36.0
+
+* Update Wagyu to version 0.5.0
+
+## 1.35.0
+
+* Fix calculation of mean when accumulating attributes in clusters
+
+## 1.34.6
+
+* Fix crash when there are null entries in the metadata table
+
+## 1.34.5
+
+* Fix line numbers in GeoJSON feature parsing error messages
+
+## 1.34.4
+
+* Be careful to avoid undefined behavior from shifting negative numbers
+
+## 1.34.3
+
+* Add an option to keep intersection nodes from being simplified away
+
+## 1.34.2
+
+* Be more consistent about when longitudes beyond 180 are allowed.
+  Now if the entire feature is beyond 180, it will still appear.
+
 ## 1.34.1
 
 * Don't run shell filters if the current zoom is below the minzoom
